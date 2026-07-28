@@ -1,15 +1,3 @@
----
-title: Pork Ragù
-tags: [pork, pasta, braise]
-servings: 6
-active_time: 45m
-total_time: 4h
-source:
-added: 2026-07-28
-last_made:
-rating:
----
-
 # Pork Ragù
 
 ## Ingredients
@@ -54,3 +42,15 @@ rating:
 - 2026-07-28 — Also pinned down two things the original text left garbled or missing: the sear is about 15 minutes total (not per side), the braise is 3 to 3½ hours, and the pork is 3 lb boneless shoulder, which puts this at 6 servings.
 - 2026-07-28 — Pulled the pancetta and anchovies back out — not things I keep around, and they made this a shopping trip instead of a weekend braise. Depth now comes only from what's already in the recipe: salt on the meat, more tomato paste, less tomato water and more stock, and a real reduction at the end. Parmesan rind stays optional.
 - 2026-07-28 — Dropped the measured salt and pepper for plain "season all over with salt and pepper" — it's just seasoning the outside before a sear, and the last step already says to taste and adjust. Supersedes the 1 tablespoon in the note above.
+
+---
+title: Pork Ragù
+tags: [pork, pasta, braise]
+servings: 6
+active_time: 45m
+total_time: 4h
+source:
+added: 2026-07-28
+last_made:
+rating:
+---

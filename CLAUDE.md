@@ -33,6 +33,10 @@ thing that was asked for and touch nothing else.
 
 ## Frontmatter
 
+The block goes at the **end** of the file, after `## Notes`, so that opening a recipe
+shows the ingredients and method first. `bin/reindex.py` reads it from either end, so an
+older recipe with it still on top keeps working.
+
 Required: `title`, `tags`, `servings`. Everything else optional, and an empty field is
 fine — leave it empty rather than guessing.
 

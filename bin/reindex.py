@@ -16,15 +16,43 @@ RECIPES = ROOT / "recipes"
 INDEX = ROOT / "INDEX.md"
 
 
+def leading_block(lines):
+    """Return the body of a --- block at the top of the file, or None."""
+    if not lines or lines[0].strip() != "---":
+        return None
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            return lines[1:i]
+    return None
+
+
+def trailing_block(lines):
+    """Return the body of a --- block at the end of the file, or None."""
+    end = len(lines)
+    while end and not lines[end - 1].strip():
+        end -= 1
+    if not end or lines[end - 1].strip() != "---":
+        return None
+    for i in range(end - 2, -1, -1):
+        if lines[i].strip() == "---":
+            return lines[i + 1 : end - 1]
+    return None
+
+
 def parse_frontmatter(text):
-    """Return a dict of top-level `key: value` pairs from a leading --- block."""
-    if not text.startswith("---"):
-        return {}
-    end = text.find("\n---", 3)
-    if end == -1:
+    """Return a dict of top-level `key: value` pairs from the --- block.
+
+    Recipes keep the block at the end of the file so the ingredients and method
+    are what you see first, but a leading block is still read if one is there.
+    """
+    lines = text.splitlines()
+    body = leading_block(lines)
+    if body is None:
+        body = trailing_block(lines)
+    if body is None:
         return {}
     meta = {}
-    for line in text[3:end].splitlines():
+    for line in body:
         if not line.strip() or line.startswith("#") or ":" not in line:
             continue
         key, _, value = line.partition(":")
