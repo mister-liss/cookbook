@@ -12,4 +12,4 @@
 
 | Recipe | Tags | Serves | Time |
 | --- | --- | --- | --- |
-| [Pork Ragù](recipes/pork-ragu.md) | pork, pasta, braise |  |  |
+| [Pork Ragù](recipes/pork-ragu.md) | pork, pasta, braise | 6 | 4h |
