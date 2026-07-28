@@ -15,8 +15,8 @@ rating:
 ## Ingredients
 
 - 3 pounds boneless pork shoulder, cut into 2-inch chunks
-- 1 tablespoon kosher salt
-- 1 teaspoons black pepper
+- kosher salt
+- black pepper
 - 3 tablespoons olive oil
 - 1 cups yellow onion, diced
 - 0.5 cups carrot, diced
@@ -36,7 +36,7 @@ rating:
 
 ## Method
 
-1. Season and sear: Pat pork chunks dry. Season all over with 1 tablespoon kosher salt and 1 teaspoons black pepper. Heat 3 tablespoons olive oil in a Dutch oven over medium-high until shimmering. Sear pork on all sides until deeply browned, about 15 minutes total, turning to brown all sides. Don't crowd — work in batches if needed. Transfer to a plate.
+1. Season and sear: Pat pork chunks dry. Season all over with salt and pepper. Heat 3 tablespoons olive oil in a Dutch oven over medium-high until shimmering. Sear pork on all sides until deeply browned, about 15 minutes total, turning to brown all sides. Don't crowd — work in batches if needed. Transfer to a plate.
 2. Build the soffritto: Reduce heat to medium. Add 1 cups yellow onion, diced, 0.5 cups carrot, diced, and 0.5 cups celery, diced to the pot. Cook, scraping up the fond, until softened and lightly golden, about 10 minutes . Add 5 garlic cloves, minced and cook 1 minute more.
 3. Toast tomato paste: Stir in 3 tablespoons tomato paste and cook, stirring, until it darkens and smells caramelized, about 2 minutes .
 4. Deglaze with wine: Pour in 1 cups dry red wine, scraping the bottom of the pot. Simmer until reduced by half, about 5 minutes .
@@ -53,3 +53,4 @@ rating:
 - 2026-07-28 — Came out bright and thin rather than deep, and generally boring. Revised for depth: pancetta rendered before the soffritto, tomato paste up to 3 tablespoons plus 2 anchovy fillets toasted with it, stock up to 1.5 cups, parmesan rind into the braise, salt on the meat up to 1 tablespoon, final uncovered reduction extended to 15–20 minutes, and butter tossed with the pasta at the end. Untested as revised.
 - 2026-07-28 — Also pinned down two things the original text left garbled or missing: the sear is about 15 minutes total (not per side), the braise is 3 to 3½ hours, and the pork is 3 lb boneless shoulder, which puts this at 6 servings.
 - 2026-07-28 — Pulled the pancetta and anchovies back out — not things I keep around, and they made this a shopping trip instead of a weekend braise. Depth now comes only from what's already in the recipe: salt on the meat, more tomato paste, less tomato water and more stock, and a real reduction at the end. Parmesan rind stays optional.
+- 2026-07-28 — Dropped the measured salt and pepper for plain "season all over with salt and pepper" — it's just seasoning the outside before a sear, and the last step already says to taste and adjust. Supersedes the 1 tablespoon in the note above.
